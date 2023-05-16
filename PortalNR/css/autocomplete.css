@@ -1,0 +1,39 @@
+﻿
+.autocomplete_elemento
+{
+	visibility: hidden;
+	margin: 0px !important;
+    overflow: auto;
+	max-height: 200px;
+	background-color: whitesmoke;
+	color: windowtext;
+	border: buttonshadow;
+	border-width: 1px;
+	border-style: solid;    
+    border-radius: 0.25rem;
+	text-align: left;
+    overflow: auto;
+    list-style-type: circle;
+	z-index: 1;
+}
+/* AutoComplete highlighted item */
+.autocomplete_realce
+{
+	background-color: #55acee;    
+	padding: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: whitesmoke;
+    white-space: nowrap;
+}
+/* AutoComplete item */
+.autocomplete_item
+{	
+	padding: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #495057;
+    white-space: nowrap;
+}

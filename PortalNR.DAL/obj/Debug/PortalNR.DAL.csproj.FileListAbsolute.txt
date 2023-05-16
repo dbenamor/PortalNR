@@ -1,0 +1,58 @@
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Debug\Newtonsoft.Json.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csprojResolveAssemblyReference.cache
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.pdb
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.pdb
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\System.Web.Http.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\System.Web.Mvc.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\System.Net.Http.Formatting.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\Newtonsoft.Json.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.pdb
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csprojAssemblyReference.cache
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csproj.CoreCompileInputs.cache
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csproj.CopyComplete
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2017\Projects\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.pdb
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.dll
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.pdb
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.dll
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.pdb
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csprojResolveAssemblyReference.cache
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.dll
+C:\Users\DBDOMAIN\Desktop\PortalNR_Fonte-20220328\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csprojResolveAssemblyReference.cache
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.DAL.pdb
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.Helpers.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.Http.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.WebPages.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.Razor.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\PortalNR.Security.pdb
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\bin\Debug\System.Web.Http.xml
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csproj.AssemblyReference.cache
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csproj.CoreCompileInputs.cache
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.csproj.CopyComplete
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.dll
+C:\Users\dbena\source\repos\PortalNR\PortalNR.DAL\obj\Debug\PortalNR.DAL.pdb

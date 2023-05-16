@@ -1,0 +1,16 @@
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Release\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Release\PortalNR.DAL.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\obj\Release\PortalNR.DAL.csprojResolveAssemblyReference.cache
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\obj\Release\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\obj\Release\PortalNR.DAL.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Release\PortalNR.Security.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Release\Newtonsoft.Json.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR.DAL\bin\Release\PortalNR.Security.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Release\PortalNR.DAL.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Release\PortalNR.DAL.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Release\PortalNR.Security.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Release\PortalNR.Security.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\obj\Release\PortalNR.DAL.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\obj\Release\PortalNR.DAL.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR.DAL\obj\Release\PortalNR.DAL.csprojResolveAssemblyReference.cache

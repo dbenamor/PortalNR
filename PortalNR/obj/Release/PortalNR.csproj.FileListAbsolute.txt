@@ -1,0 +1,33 @@
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.dll.config
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.DAL.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.DAL.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\obj\Release\PortalNR.csprojResolveAssemblyReference.cache
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\obj\Release\RdlCompile.cache
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\obj\Release\RdlCompile.compiled
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\obj\Release\PortalNR.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\obj\Release\PortalNR.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\ClosedXML.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\DocumentFormat.OpenXml.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\ExcelNumberFormat.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\ClosedXML.pdb
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\ClosedXML.xml
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\DocumentFormat.OpenXml.xml
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\ExcelNumberFormat.xml
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\AjaxControlToolkit.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.Security.dll
+H:\Documentos\Visual Studio 2013\Projects\PortalNR\PortalNR\bin\PortalNR.Security.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.dll.config
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\AjaxControlToolkit.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.DAL.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.Security.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.DAL.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\bin\PortalNR.Security.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\obj\Release\RdlCompile.cache
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\obj\Release\RdlCompile.compiled
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\obj\Release\PortalNR.dll
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\obj\Release\PortalNR.pdb
+C:\Users\Administrator\Desktop\PortalNR\PortalNR\obj\Release\PortalNR.csprojResolveAssemblyReference.cache

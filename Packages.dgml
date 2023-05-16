@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="PortalNR" Label="PortalNR" Category="Project" />
+    <Node Id="bootstrap 4.6.0" Label="bootstrap 4.6.0" Category="Package" />
+    <Node Id="ClosedXML 0.95.4" Label="ClosedXML 0.95.4" Category="Package" />
+    <Node Id="DocumentFormat.OpenXml 2.13.0" Label="DocumentFormat.OpenXml 2.13.0" Category="Package" />
+    <Node Id="ExcelNumberFormat 1.0.10" Label="ExcelNumberFormat 1.0.10" Category="Package" />
+    <Node Id="font-awesome 4.7.0" Label="font-awesome 4.7.0" Category="Package" />
+    <Node Id="jQuery 3.0.0" Label="jQuery 3.0.0" Category="Package" />
+    <Node Id="popper.js 1.16.1" Label="popper.js 1.16.1" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="bootstrap 4.6.0" Target="jQuery 3.0.0" Category="Package Dependency" />
+    <Link Source="bootstrap 4.6.0" Target="popper.js 1.16.1" Category="Package Dependency" />
+    <Link Source="ClosedXML 0.95.4" Target="DocumentFormat.OpenXml 2.13.0" Category="Package Dependency" />
+    <Link Source="ClosedXML 0.95.4" Target="ExcelNumberFormat 1.0.10" Category="Package Dependency" />
+    <Link Source="ClosedXML 0.95.4" Target="DocumentFormat.OpenXml 2.13.0" Category="Package Dependency" />
+    <Link Source="ClosedXML 0.95.4" Target="ExcelNumberFormat 1.0.10" Category="Package Dependency" />
+    <Link Source="ClosedXML 0.95.4" Target="DocumentFormat.OpenXml 2.13.0" Category="Package Dependency" />
+    <Link Source="ClosedXML 0.95.4" Target="ExcelNumberFormat 1.0.10" Category="Package Dependency" />
+    <Link Source="PortalNR" Target="bootstrap 4.6.0" Category="Installed Package" />
+    <Link Source="PortalNR" Target="ClosedXML 0.95.4" Category="Installed Package" />
+    <Link Source="PortalNR" Target="font-awesome 4.7.0" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>

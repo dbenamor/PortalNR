@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="PortalNRDALPersistence">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>eadd2ae5-308b-4a0e-ba57-aee560949c64</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSetPresenca">
+      <Query>
+        <DataSourceName>PortalNRDALPersistence</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="IdParticipante">
+          <DataField>IdParticipante</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Matricula">
+          <DataField>Matricula</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Nome">
+          <DataField>Nome</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Coordenacao">
+          <DataField>Coordenacao</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Presenca">
+          <DataField>Presenca</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="turmaRel">
+          <DataField>turmaRel</DataField>
+          <rd:TypeName>PortalNR.DAL.Entities.Turmas</rd:TypeName>
+        </Field>
+        <Field Name="temaRel">
+          <DataField>temaRel</DataField>
+          <rd:TypeName>PortalNR.DAL.Entities.TurmasTema</rd:TypeName>
+        </Field>
+        <Field Name="IdTurma">
+          <DataField>IdTurma</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="dtTurma">
+          <DataField>dtTurma</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Local">
+          <DataField>Local</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Vagas">
+          <DataField>Vagas</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="vagasDisponiveis">
+          <DataField>vagasDisponiveis</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Palestrante">
+          <DataField>Palestrante</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Observacao">
+          <DataField>Observacao</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IdNR">
+          <DataField>IdNR</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="IdTema">
+          <DataField>IdTema</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="normativoRel">
+          <DataField>normativoRel</DataField>
+          <rd:TypeName>PortalNR.DAL.Entities.Normativos</rd:TypeName>
+        </Field>
+        <Field Name="TemaRelac">
+          <DataField>TemaRelac</DataField>
+          <rd:TypeName>PortalNR.DAL.Entities.TurmasTema</rd:TypeName>
+        </Field>
+        <Field Name="tpCollection">
+          <DataField>tpCollection</DataField>
+          <rd:TypeName>System.Collections.Generic.ICollection`1[[PortalNR.DAL.Entities.TurmasParticpantes, PortalNR.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]</rd:TypeName>
+        </Field>
+        <Field Name="IdNormativo">
+          <DataField>IdNormativo</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Normativo">
+          <DataField>Normativo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Vigencia">
+          <DataField>Vigencia</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Descricao">
+          <DataField>Descricao</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Ativo">
+          <DataField>Ativo</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="tCollection">
+          <DataField>tCollection</DataField>
+          <rd:TypeName>System.Collections.Generic.ICollection`1[[PortalNR.DAL.Entities.Turmas, PortalNR.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]</rd:TypeName>
+        </Field>
+        <Field Name="cCollection">
+          <DataField>cCollection</DataField>
+          <rd:TypeName>System.Collections.Generic.ICollection`1[[PortalNR.DAL.Entities.Colaborador, PortalNR.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>PortalNR.DAL.Persistence</rd:DataSetName>
+        <rd:TableName>ColaboradorDAL</rd:TableName>
+        <rd:ObjectDataSourceSelectMethod>FindAusentePresente</rd:ObjectDataSourceSelectMethod>
+        <rd:ObjectDataSourceSelectMethodSignature>System.Collections.Generic.List`1[PortalNR.DAL.Entities.TurmasParticpantes] FindAusentePresente(System.String, System.String, System.String)</rd:ObjectDataSourceSelectMethodSignature>
+        <rd:ObjectDataSourceType>PortalNR.DAL.Persistence.ColaboradorDAL, PortalNR.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</rd:ObjectDataSourceType>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Chart Name="Chart2">
+            <ChartCategoryHierarchy>
+              <ChartMembers>
+                <ChartMember>
+                  <Group Name="Chart2_CategoryGroup">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!Coordenacao.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!Coordenacao.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <Label>=Fields!Coordenacao.Value</Label>
+                </ChartMember>
+              </ChartMembers>
+            </ChartCategoryHierarchy>
+            <ChartSeriesHierarchy>
+              <ChartMembers>
+                <ChartMember>
+                  <Label>Matricula</Label>
+                </ChartMember>
+                <ChartMember>
+                  <Label>Presenca</Label>
+                </ChartMember>
+              </ChartMembers>
+            </ChartSeriesHierarchy>
+            <ChartData>
+              <ChartSeriesCollection>
+                <ChartSeries Name="Matricula">
+                  <ChartDataPoints>
+                    <ChartDataPoint>
+                      <ChartDataPointValues>
+                        <Y>=Count(Fields!Matricula.Value)</Y>
+                      </ChartDataPointValues>
+                      <ChartDataLabel>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
+                      </ChartDataLabel>
+                      <Style />
+                      <ChartMarker>
+                        <Type>Triangle</Type>
+                        <Style>
+                          <Color>Blue</Color>
+                        </Style>
+                      </ChartMarker>
+                      <DataElementOutput>Output</DataElementOutput>
+                    </ChartDataPoint>
+                  </ChartDataPoints>
+                  <Style />
+                  <ChartEmptyPoints>
+                    <Style />
+                    <ChartMarker>
+                      <Style />
+                    </ChartMarker>
+                    <ChartDataLabel>
+                      <Style />
+                    </ChartDataLabel>
+                  </ChartEmptyPoints>
+                  <ChartItemInLegend>
+                    <LegendText>Inscritos</LegendText>
+                  </ChartItemInLegend>
+                  <ValueAxisName>Primary</ValueAxisName>
+                  <CategoryAxisName>Primary</CategoryAxisName>
+                  <ChartSmartLabel>
+                    <CalloutLineColor>Black</CalloutLineColor>
+                    <MinMovingDistance>0pt</MinMovingDistance>
+                  </ChartSmartLabel>
+                </ChartSeries>
+                <ChartSeries Name="Presenca">
+                  <ChartDataPoints>
+                    <ChartDataPoint>
+                      <ChartDataPointValues>
+                        <Y>=Sum(IIf(Fields!Presenca.Value="True",1,0))</Y>
+                      </ChartDataPointValues>
+                      <ChartDataLabel>
+                        <Style>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                        <UseValueAsLabel>true</UseValueAsLabel>
+                        <Visible>true</Visible>
+                      </ChartDataLabel>
+                      <Style />
+                      <ChartMarker>
+                        <Type>Triangle</Type>
+                        <Style>
+                          <Color>Blue</Color>
+                        </Style>
+                      </ChartMarker>
+                      <DataElementOutput>Output</DataElementOutput>
+                    </ChartDataPoint>
+                  </ChartDataPoints>
+                  <Style />
+                  <ChartEmptyPoints>
+                    <Style />
+                    <ChartMarker>
+                      <Style />
+                    </ChartMarker>
+                    <ChartDataLabel>
+                      <Style />
+                    </ChartDataLabel>
+                  </ChartEmptyPoints>
+                  <ChartItemInLegend>
+                    <LegendText>Presentes</LegendText>
+                  </ChartItemInLegend>
+                  <ValueAxisName>Primary</ValueAxisName>
+                  <CategoryAxisName>Primary</CategoryAxisName>
+                  <ChartSmartLabel>
+                    <CalloutLineColor>Black</CalloutLineColor>
+                    <MinMovingDistance>0pt</MinMovingDistance>
+                  </ChartSmartLabel>
+                </ChartSeries>
+              </ChartSeriesCollection>
+            </ChartData>
+            <ChartAreas>
+              <ChartArea Name="Default">
+                <ChartCategoryAxes>
+                  <ChartAxis Name="Primary">
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                    <ChartAxisTitle>
+                      <Caption />
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </ChartAxisTitle>
+                    <ChartMajorGridLines>
+                      <Enabled>False</Enabled>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                        </Border>
+                      </Style>
+                    </ChartMajorGridLines>
+                    <ChartMinorGridLines>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                          <Style>Dotted</Style>
+                        </Border>
+                      </Style>
+                    </ChartMinorGridLines>
+                    <ChartMinorTickMarks>
+                      <Length>0.5</Length>
+                    </ChartMinorTickMarks>
+                    <CrossAt>NaN</CrossAt>
+                    <Minimum>NaN</Minimum>
+                    <Maximum>NaN</Maximum>
+                    <ChartAxisScaleBreak>
+                      <Style />
+                    </ChartAxisScaleBreak>
+                  </ChartAxis>
+                  <ChartAxis Name="Secondary">
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                    <ChartAxisTitle>
+                      <Caption>Axis Title</Caption>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </ChartAxisTitle>
+                    <ChartMajorGridLines>
+                      <Enabled>False</Enabled>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                        </Border>
+                      </Style>
+                    </ChartMajorGridLines>
+                    <ChartMinorGridLines>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                          <Style>Dotted</Style>
+                        </Border>
+                      </Style>
+                    </ChartMinorGridLines>
+                    <ChartMinorTickMarks>
+                      <Length>0.5</Length>
+                    </ChartMinorTickMarks>
+                    <CrossAt>NaN</CrossAt>
+                    <Location>Opposite</Location>
+                    <Minimum>NaN</Minimum>
+                    <Maximum>NaN</Maximum>
+                    <ChartAxisScaleBreak>
+                      <Style />
+                    </ChartAxisScaleBreak>
+                  </ChartAxis>
+                </ChartCategoryAxes>
+                <ChartValueAxes>
+                  <ChartAxis Name="Primary">
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                    <ChartAxisTitle>
+                      <Caption />
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </ChartAxisTitle>
+                    <ChartMajorGridLines>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                        </Border>
+                      </Style>
+                    </ChartMajorGridLines>
+                    <ChartMinorGridLines>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                          <Style>Dotted</Style>
+                        </Border>
+                      </Style>
+                    </ChartMinorGridLines>
+                    <ChartMinorTickMarks>
+                      <Length>0.5</Length>
+                    </ChartMinorTickMarks>
+                    <CrossAt>NaN</CrossAt>
+                    <Minimum>NaN</Minimum>
+                    <Maximum>NaN</Maximum>
+                    <ChartAxisScaleBreak>
+                      <Style />
+                    </ChartAxisScaleBreak>
+                  </ChartAxis>
+                  <ChartAxis Name="Secondary">
+                    <Style>
+                      <FontSize>8pt</FontSize>
+                    </Style>
+                    <ChartAxisTitle>
+                      <Caption>Axis Title</Caption>
+                      <Style>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </ChartAxisTitle>
+                    <ChartMajorGridLines>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                        </Border>
+                      </Style>
+                    </ChartMajorGridLines>
+                    <ChartMinorGridLines>
+                      <Style>
+                        <Border>
+                          <Color>Gainsboro</Color>
+                          <Style>Dotted</Style>
+                        </Border>
+                      </Style>
+                    </ChartMinorGridLines>
+                    <ChartMinorTickMarks>
+                      <Length>0.5</Length>
+                    </ChartMinorTickMarks>
+                    <CrossAt>NaN</CrossAt>
+                    <Location>Opposite</Location>
+                    <Minimum>NaN</Minimum>
+                    <Maximum>NaN</Maximum>
+                    <ChartAxisScaleBreak>
+                      <Style />
+                    </ChartAxisScaleBreak>
+                  </ChartAxis>
+                </ChartValueAxes>
+                <Style>
+                  <BackgroundGradientType>None</BackgroundGradientType>
+                </Style>
+              </ChartArea>
+            </ChartAreas>
+            <ChartLegends>
+              <ChartLegend Name="Default">
+                <Style>
+                  <BackgroundGradientType>None</BackgroundGradientType>
+                  <FontSize>8pt</FontSize>
+                </Style>
+                <ChartLegendTitle>
+                  <Caption />
+                  <Style>
+                    <FontSize>8pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </ChartLegendTitle>
+                <HeaderSeparatorColor>Black</HeaderSeparatorColor>
+                <ColumnSeparatorColor>Black</ColumnSeparatorColor>
+              </ChartLegend>
+            </ChartLegends>
+            <Palette>PacificLight</Palette>
+            <ChartBorderSkin>
+              <Style>
+                <BackgroundColor>Gray</BackgroundColor>
+                <BackgroundGradientType>None</BackgroundGradientType>
+                <Color>White</Color>
+              </Style>
+            </ChartBorderSkin>
+            <ChartNoDataMessage Name="NoDataMessage">
+              <Caption>No Data Available</Caption>
+              <Style>
+                <BackgroundGradientType>None</BackgroundGradientType>
+                <TextAlign>General</TextAlign>
+                <VerticalAlign>Top</VerticalAlign>
+              </Style>
+            </ChartNoDataMessage>
+            <DataSetName>DataSetPresenca</DataSetName>
+            <Top>1.16445cm</Top>
+            <Left>0.02645cm</Left>
+            <Height>8.83048cm</Height>
+            <Width>22.93937cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BackgroundColor>White</BackgroundColor>
+              <BackgroundGradientType>None</BackgroundGradientType>
+            </Style>
+          </Chart>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Inscritos x Presentes</Value>
+                    <Style>
+                      <FontSize>11pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>0.17639cm</Top>
+            <Left>0.02645cm</Left>
+            <Height>0.81167cm</Height>
+            <Width>22.93937cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>4.00793in</Height>
+        <Style />
+      </Body>
+      <Width>9.04166in</Width>
+      <Page>
+        <PageHeader>
+          <Height>1.56104cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Image Name="logoMetro">
+              <Source>Embedded</Source>
+              <Value>MetrôRioHorizontal_small</Value>
+              <Sizing>FitProportional</Sizing>
+              <Height>1.56104cm</Height>
+              <Width>6.64104cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingTop>2pt</PaddingTop>
+              </Style>
+            </Image>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>0.635cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="ExecutionTime">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ExecutionTime</Value>
+                      <Style>
+                        <Color>SteelBlue</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>ExecutionTime</rd:DefaultName>
+              <Top>0mm</Top>
+              <Left>0.26454mm</Left>
+              <Height>6.35mm</Height>
+              <Width>229.39374mm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <PageHeight>21cm</PageHeight>
+        <PageWidth>29.7cm</PageWidth>
+        <LeftMargin>2cm</LeftMargin>
+        <RightMargin>2cm</RightMargin>
+        <TopMargin>2cm</TopMargin>
+        <BottomMargin>2cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="MetrôRioHorizontal_small">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>e8760405-bc87-4d17-866f-d58e523a68a4</rd:ReportID>
+</Report>

@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="PortalNR.Template.Template" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=Windows-1252" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>&nbsp;Portal Normativos</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Content/Button.css" rel="stylesheet" />
+    <link href="../Content/Custom.css" rel="stylesheet" />
+    <link href="../css/autocomplete.css" rel="stylesheet" />
+
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/popper.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+
+    <style>
+        .navbar-nav li:hover > ul.dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu > .dropdown-menu {
+                top: 0;
+                left: -100%;
+                left: 17rem; /* 10rem is the min-width of dropdown-menu */
+                margin-top: -6px;
+            }
+        /* rotate caret on hover */
+        .dropdown-menu > li > a:hover:after {
+            text-decoration: underline;
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+<body>
+    <!--Conteúdo do sistema-->
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+            <div id="divMenu" runat="server" class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="../Images/MetrôRio%20Horizontal%20-%20Preto.png" width="120" height="30" /></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <ul class="nav navbar-nav mr-auto">
+                    <!--mr-auto = Alinha a segunda UL a direita-->
+                    <li class="nav-item">
+                        <a runat="server" id="a100" visible="false" class="nav-link" href="../Pages/Default.aspx"><i class="fa fa-fw fa-home"></i>&nbsp;Home&nbsp;</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a runat="server" id="a200" visible="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-fw fa-file-text-o"></i>&nbsp;Consultar NR&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" id="a201" visible="false" class="dropdown-item" href="../Pages/ConsultarNR.aspx">Situação do colaborador</a></li>
+                            <li><a runat="server" id="a202" visible="false" class="dropdown-item" href="../Pages/AguardandoCertif.aspx">Aguardando certificação</a></li>
+                            <li><a runat="server" id="a203" visible="false" class="dropdown-item" href="../Pages/NRVigente.aspx">Normativos vigentes</a></li>
+                            <li><a runat="server" id="a204" visible="false" class="dropdown-item" href="../Pages/NRaVencer.aspx">Normativos à vencer</a></li>
+                            <li><a runat="server" id="a205" visible="false" class="dropdown-item" href="../Pages/NrExpirado.aspx">Normativos Expirados</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a runat="server" id="a300" visible="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-fw fa-calendar"></i>&nbsp;Calendário das turmas&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" id="a301" visible="false" class="dropdown-item" href="../Pages/ProximasTurmas.aspx">Próximas turmas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a runat="server" id="a400" visible="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-fw fa-signal"></i>&nbsp;Relatórios&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a runat="server" id="a401" visible="false" class="dropdown-item" href="../Relatorios/VigentesXExpirados.aspx">NR Vigentes x NR Expirados</a></li>
+                            <li><a runat="server" id="a402" visible="false" class="dropdown-item" href="../Relatorios/PresentesXAusentes.aspx">Participação x Ausência</a></li>
+                            <li><a runat="server" id="a403" visible="false" class="dropdown-item" href="../Relatorios/NRsGeral.aspx">Listagem geral de normativos</a></li>
+                            <li><a runat="server" id="a404" visible="false" class="dropdown-item" href="../Relatorios/TurmasCanceladas.aspx">Turmas canceladas x abertas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a runat="server" id="a500" visible="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-fw fa-cogs"></i>&nbsp;Administração&nbsp;<span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a runat="server" id="a501" visible="false" class="dropdown-item" href="../Admin/CadastrarNR.aspx">Cadastrar normativos</a></li>
+                            <li class="dropdown-submenu">
+                                <a runat="server" id="a502" visible="false" class="dropdown-item dropdown-toggle" href="#">Cadastro de colaborador</a>
+                                <ul class="dropdown-menu">
+                                    <li><a runat="server" id="a502a" visible="false" class="dropdown-item" href="../Admin/CadastrarColab.aspx">Cadastrar colaborador</a></li>
+                                    <li><a runat="server" id="a502b" visible="false" class="dropdown-item" href="../Admin/ConsultarColabCoord.aspx">Editar colaboradores</a></li>
+                                </ul>
+                            </li>
+                            <li><a runat="server" id="a503" visible="false" class="dropdown-item" href="../Admin/CadastrarTurmas.aspx">Cadastrar turmas de treinamento</a></li>
+                            <%--<li><a runat="server" id="a504" visible="false" class="dropdown-item" href="../Admin/CadastrarCoordenacao.aspx">Cadastrar Coordenação</a></li>--%>
+                            <li><a runat="server" id="a505" visible="false" class="dropdown-item" href="../Admin/CadastrarEmail.aspx">Configurar e-mails coordenações</a></li>
+                            <li><a runat="server" id="a506" visible="false" class="dropdown-item" href="../Admin/CadastrarUsu.aspx">Cadastrar usuários do sistema</a></li>
+                            <li><a runat="server" id="a507" visible="false" class="dropdown-item" href="../Admin/Efetivo.aspx">Consultar Efetivo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li id="divDropUsuario" runat="server" class="nav-item dropdown">
+                        <a runat="server" id="a600" visible="false" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                            <asp:Label ID="lblUsuario" runat="server" /></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <asp:LinkButton ID="lknSair" runat="server" CssClass="dropdown-item" OnClick="lknSair_Click" CausesValidation="false"><i class="fa-solid fa-right-from-bracket"></i>&nbsp;Sair</asp:LinkButton>
+                                <%-- <a class="dropdown-item" href="/Logout.aspx">Sair</a> --%>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="margin-top: 80px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

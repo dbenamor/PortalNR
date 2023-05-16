@@ -1,0 +1,17 @@
+﻿body{
+    background-color: #ededed;
+}
+
+/*CUSTOMIZAÇÂO DO GRIDVIEW*/
+.larguraGridView{
+     width: 1000px;
+} 
+
+.smallfont{
+    font-size: 10px;
+}
+
+.table > tbody > tr > td {
+     /*vertical-align: middle;*/
+     text-align: center;
+}
